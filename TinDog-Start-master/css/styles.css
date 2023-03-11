@@ -1,0 +1,147 @@
+:root {
+  --accent: #ff4c68;
+}
+
+#title {
+  background-color: var(--accent);
+  position: relative;
+  padding-bottom: 75px;
+  height: 600px;
+}
+
+.title-image {
+  rotate: 25deg;
+  position: relative;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+    height: auto;
+  }
+
+  .title-image {
+    rotate: 0deg;
+    position: static;
+  }
+}
+
+#features {
+  padding: 60px 100px 50px;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+
+.features-explanation {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #8f8f8f;
+  padding: 10px 80px 10px;
+  margin-bottom: 50px;
+}
+
+.feature-icon {
+  width: 100%;
+  margin-bottom: 10px;
+  color: var(--accent);
+}
+
+.feature-icon:hover {
+  color: var(--accent);
+}
+
+#testimonials {
+  padding: 150px;
+  text-align: center;
+  background-color: var(--accent);
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#press {
+  background-color: var(--accent);
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.press-icon {
+  padding: 0px 75px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.testimonial-text {
+  font-family: "Montserrat-Bold";
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 10px;
+  font-size: larger;
+}
+
+#pricing {
+  padding-bottom: 30px;
+}
+
+.paymentFeatures {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #8f8f8f;
+}
+
+.download2 {
+  background-color: var(--accent);
+  padding: 50px;
+  text-align: center;
+}
+
+#footer {
+  padding: 50px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #8f8f8f;
+}
