@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(115, 156, 143);
+}
+
+.btnDiv,
+.imagesDiv,
+.result {
+  text-align: center;
+  padding-top: 100px;
+  width: 50%;
+  margin: auto;
+}
+
+.player1Div,
+.player2Div {
+  text-align: center;
+}
+.btn-ramji {
+  background-color: rgb(4, 99, 105);
+}
+
+.dice {
+  width: 45%;
+  padding: 20px;
+}
