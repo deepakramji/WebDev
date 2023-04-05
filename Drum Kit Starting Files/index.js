@@ -1,11 +1,8 @@
-var buttons = document.getElementsByTagName("button"); //.addEventListener("click", handleClick);
-
-for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener("click", function () {
-    handleClick(this.innerHTML);
-    buttonAnimation(this.innerHTML);
-  });
-}
+$("button").click(function () {
+  this.toggle();
+  handleClick(this.innerHTML);
+  buttonAnimation(this.innerHTML);
+});
 
 document.addEventListener("keydown", function (event) {
   handleClick(event.key);
@@ -20,10 +17,10 @@ function handleClick(fn) {
 
 function buttonAnimation(key) {
   var activeButton = document.querySelector("." + key);
-
-  activeButton.classList.add("pressed");
-
-  setTimeout(function () {
-    activeButton.classList.remove("pressed");
-  }, 100);
+  if (activeButton) {
+    activeButton.classList.add("pressed");
+    setTimeout(function () {
+      activeButton.classList.remove("pressed");
+    }, 100);
+  }
 }
