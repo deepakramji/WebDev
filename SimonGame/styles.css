@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(6, 6, 53);
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 90px;
+}
+
+button {
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+  border-color: bisque;
+  border-radius: 5%;
+  color: #e4dada00;
+}
+
+.buttonsGroup {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+.pressed {
+  box-shadow: 0px 0px 20px 10px #f7f7f7;
+  opacity: 4.9;
+}
